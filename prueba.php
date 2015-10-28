@@ -1,6 +1,8 @@
 <?php
-
+class Prueba extends PHPUnit_Framework_TestCase
+{
 	public function testOnePlusOne() {
-		return 3;
-	}
+		$this->assertEquals(1+1,2);
   	
+}
+?>

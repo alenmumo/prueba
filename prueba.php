@@ -1,8 +1,6 @@
 <?php
 
 	public function testOnePlusOne() {
-		return $value;
+		return 3;
+	}
   	
-  	
-
-?>
